@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/style_menu.css" />
+    <link rel="stylesheet" href="css/style_mouse.css" />
+    <link rel="stylesheet" href="css/style_btn.css" />
+    <link rel="stylesheet" href="css//style_say_hello.css" />
+    <script src="JS/JS_menu.js" defer></script>
+    <script src="JS/JS_form.js" defer></script>
+
+    <title>Say hello</title>
+</head>
+<body>
+
+    <div class="body_wrap">
+        <header class="header">
+    <div class="conteiner">
+        
+        <h1 class="jk"><a href="index.html">JK</a></h1>
+        
+        <button class="burger_btn" id="burger">
+          <span></span><span></span><span></span>
+                    </button>
+        <nav class="menu" id="menu">
+          
+            <ul class="menu_list"> 
+                <li class="menu_item">
+                  <a class="menu_link" href="book.html">BOOK</a>
+                </li>
+                <li class="menu_item"><a class="menu_link" href="#">COMP CARD</a>
+                </li>
+                <li class="menu_item"><a class="menu_link" href="#">SNAPS</a>
+                </li>
+                <li class="menu_item"><a class="menu_link" href="https://www.instagram.com/jane.kos" target="_blank"><img src="img/kisspng-computer-icons-business-clip-art-instagram-grey-5b2fa9dce79b59.3522937115298503329487.png" width="50px" class="inst"></a>
+                </li>
+            </ul>
+            
+        </nav>
+      </div>
+        </header>
+   </div>
+
+
+   <section class="contact_me" id="contact_me">
+    <h1 class="say-hello">Say hello</h1>
+    <form class="form" onsubmit="sendEmailTelegram(event)">
+    <fieldset>
+        <label for="email">Enter Your Email: <input id="email" name="email" type="email" autocomplete="off" required /></label>
+        <label for="message">Message<input id="message" name="message" type="text" autocomplete="off" required /></label>
+    </fieldset>
+    <div id="btn_container_send" class="send_btn">
+      <a id="button-1" class="button" href="#contact_me">Send me a message</a></div>  
+
+      <div class="form__send-result"></div>
+
+    </form>
+  </section>
+</body>
+</html>

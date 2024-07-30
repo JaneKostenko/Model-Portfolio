@@ -1,0 +1,54 @@
+/*Form*/
+
+.contact_me {
+  display: block;
+  position: relative;
+  margin: 40px;
+  top: 100px;
+  height: 100vh;
+  padding: 60px;
+}
+
+.say-hello {
+    margin: auto;
+    text-align: center;
+    font-weight: 100;
+    
+  }
+  
+  form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+  
+  fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #ffffff;
+  }
+  
+  fieldset:last-of-type {
+    border-bottom: none;
+  }
+  
+  
+  
+  
+  
+  input {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+    background-color: #be000000;
+    border: 1px solid #BFC0C0;
+    color: #ffffff;
+  }
+  
+  
+
+  .main-page {
+    position: fixed;
+  }
